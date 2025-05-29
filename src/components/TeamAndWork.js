@@ -25,7 +25,7 @@ function TeamAndWork() {
           <h4>Co-Founder & Lead Business Manager</h4>
         </div>
         <h4 className = "team-description"> Our names are Dylan and Kanay and we’re rising Sophomores at the University of Maryland and Indiana University. 
-          We’ve lived in Short Hills for most of our lives and have a passion for business, entrepreneurshipand, of course, cars! We have multiple
+          We’ve lived in Short Hills for most of our lives and have a passion for business, entrepreneurship and, of course, cars! We have multiple
           years of experience with detailing cars and we are dedicated to providing the best auto detailing service possible for those in the Millburn/Short Hills area and beyond.</h4>
       </div>
       <h2 className="teamwork-title">OUR WORK</h2>
