@@ -1,0 +1,32 @@
+.booking-section {
+  padding: 80px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.booking-title {
+  font-family: 'Kaisei Decol', serif;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.bookings-line {
+  width: 150px;
+  height: 4px;
+  background-color: #000000;
+  border: none;
+  border-radius: 2px;
+  margin: 0 auto 40px auto; /* adds spacing below the line */
+}
+
+.form-frame {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #003366;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
