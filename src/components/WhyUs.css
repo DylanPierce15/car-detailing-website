@@ -1,0 +1,49 @@
+.whyus-section {
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .whyus-title {
+    font-family: 'Kaisei Decol', serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black;
+  }
+  
+  .whyus-divider {
+    width: 80px;
+    margin: 0 auto 70px auto;
+    border: 2px solid black;
+  }
+  
+  .reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .reason-card {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+
+  .reason-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #003366;
+  }
+  
+  .reason-card h4 {
+    color: black;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
