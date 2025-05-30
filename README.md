@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+🚗 Short Hills Auto Detailing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive website for a mobile auto detailing business, built with React.
+Designed to offer a seamless user experience, showcase services, and allow users to book detailing appointments through an embedded Google Form.
+Link: 
 
-## Available Scripts
+🧼 Overview
 
-In the project directory, you can run:
+This website highlights the convenience, quality, and professionalism of Short Hills Auto Detailing. Users can browse through services, meet the team, view past work, and easily book appointments using a styled booking form powered by Google Forms.
 
-### `npm start`
+🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Fully responsive design optimized for desktop and mobile
+- "Why Us" section with stylized benefit cards and icons
+- Clean service listings with prices and visuals
+- Meet the team and gallery-style showcase of past work
+- Smooth scrolling and anchor navigation
+- Integrated Google Form with dynamic thank-you behavior
+- Modern aesthetic with clear typography and spacing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+💻 Tech Stack
 
-### `npm test`
+- React (Frontend)
+- HTML5 & CSS3
+- Google Forms & Sheets (Appointment Booking & Backend Data)
+- Deployed via [Netlify]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📋 How to Use Locally
 
-### `npm run build`
+Clone the repository:
+  git clone https://github.com/your-username/short-hills-detailing.git
+  cd short-hills-detailing
+  Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install dependencies:
+  npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start the development server:
+  npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Visit http://localhost:3000 in your browser.
 
-### `npm run eject`
+📁 Folder Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+short-hills-detailing/
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── Dylan.jpeg
+│   │   ├── Exterior.JPG
+│   │   ├── Full.JPG
+│   │   ├── Gallery1.JPG
+│   │   ├── Gallery2.JPG
+│   │   ├── Gallery3.JPG
+│   │   ├── Gallery4.JPG
+│   │   ├── Interior.JPG
+│   │   ├── Kanay.JPG
+│   │   ├── Logo.jpeg
+│   │   ├── mainPage.JPG
+│   ├── components/
+│   │   ├── Booking.js
+│   │   ├── Booking.css
+│   │   ├── Header.css
+│   │   ├── Header.js
+│   │   ├── Services.css
+│   │   ├── Servies.js
+│   │   ├── TeamAndWork.js
+│   │   ├── TeamAndWork.js
+│   │   ├── WhyUs.js
+│   │   ├── WhyUs.css
+│   ├── App.js
+│   ├── index.js
+├── .gitignore
+├── package.json
+├── README.md
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📱 Mobile Optimization
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Responsive layouts tested across iPhone SE, iPhone 12 Pro, Pixel 5, Galaxy S8+, and iPad in Chrome DevTools.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🔮 Future Improvements
 
-## Learn More
+- Add backend calendar integration for real-time appointment slot control
+- Include testimonials and customer review carousel
+- Gallery for before/after service photos
+- SEO and social metadata enhancements
+- Optional login for returning users
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🧾 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License — free to use, fork, and adapt with attribution.
