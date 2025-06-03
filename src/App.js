@@ -5,6 +5,7 @@ import Services from './components/Services';
 import WhyUs from './components/WhyUs';
 import TeamAndWork from './components/TeamAndWork';
 import Booking from './components/Booking';
+import Reviews from "./components/Reviews";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <WhyUs />
       <TeamAndWork />
       <Booking />
+      <Reviews />
       <div className="App-container">
       </div>
     </div>
