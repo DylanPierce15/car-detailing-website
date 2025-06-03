@@ -1,74 +1,125 @@
-<<<<<<< HEAD
-# car-detailing-website
-=======
-# Getting Started with Create React App
+# 🚘 Car Detailing Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive web application for a car detailing business. Built with React, the site includes service descriptions, team bios, a booking system, and more — all designed to attract and convert potential customers.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Overview
 
-### `npm start`
+This website serves as the digital storefront for a professional car detailing business. It’s designed to clearly communicate services, showcase the team’s work, and make it easy for customers to book an appointment online.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- Responsive layout for mobile and desktop  
+- Service cards with floating number badges  
+- “Why Us” section with icon-based feature grid  
+- Team and gallery area to showcase bios and work  
+- Embedded booking form (via Google Forms)
+- Reviews Section at the bottom  
+- Smooth scroll navigation  
+- Clean, modern design using CSS and React components  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧱 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Technology     | Description                         |
+|----------------|-------------------------------------|
+| React          | UI framework                        |
+| Tailwind CSS   | Utility-first CSS styling           |
+| React Router   | Smooth scroll and section linking   |
+| Google Forms   | Booking system integration          |
+| Vite           | Lightning-fast development server   |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Folder Structure
 
-### `npm run eject`
+car-detailing-website/
+├── README.md
+├── package.json
+├── vite.config.js
+├── public/
+│ └── index.html
+├── src/
+│ ├── App.js
+│ ├── main.js
+│ ├── assets/
+│ │ └── images, icons, logos
+│ ├── components/
+│ │ ├── Booking.css
+│ │ ├── Booking.js
+│ │ ├── Header.css
+│ │ ├── Header.js
+│ │ ├── Reviews.css
+│ │ ├── Reviews.js
+│ │ ├── Services.css
+│ │ ├── Services.js
+│ │ ├── TeamAndWork.css
+│ │ ├── TeamAndWork.js
+│ │ ├── WhyUs.css
+│ │ └── WhyUs.js
+│ └── styles/
+│ └── tailwind.css
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/yourusername/car-detailing-website.git
+   cd car-detailing-website
+Install dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
 
-## Learn More
+Start the dev server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm run dev
+Open http://localhost:5173 in your browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📅 Booking System
+The site includes a booking system where users input:
 
-### Code Splitting
+Name
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Email & Phone
 
-### Analyzing the Bundle Size
+Selected Service
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Car make & model
 
-### Making a Progressive Web App
+Appointment time (e.g., 10:30, 1:30, 4:30)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Optional comments
 
-### Advanced Configuration
+The form is embedded using Google Forms or a custom backend and can include features like:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Hiding filled slots
 
-### Deployment
+Time-based disabling of past slots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Email confirmation
 
-### `npm run build` fails to minify
+🧩 To-Do / Ideas
+Add calendar-based availability
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 6340f33 (Initial commit)
+Admin dashboard for managing appointments
+
+Payment integration (e.g., Stripe)
+
+Service pricing calculator
+
+SEO optimization
+
+📸 Screenshots
+Add before/after images or screenshots of sections like “Services,” “Our Work,” and “Booking.”
+
+📜 License
+MIT License — free for personal and commercial use with attribution.
+
+🙌 Credits
+Designed and developed by [Your Name] as part of a small business digital strategy initiative.
