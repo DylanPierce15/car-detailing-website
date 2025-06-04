@@ -23,6 +23,42 @@ This website serves as the digital storefront for a professional car detailing b
 
 ---
 
+# 📅 Google Apps Script: Booking System Backend
+
+This Google Apps Script backend powers the booking functionality for the [Short Hills Auto Detailing](https://shorthillsautodetailing.org) website.
+
+It integrates with:
+- A **Google Sheet** storing available time slots and booking statuses
+- A **Google Form** where users select from dynamic date/time options
+- A **web app endpoint** (`doGet`) that returns current availability in JSON for the React frontend
+
+---
+
+## 🔧 Files & Functionality
+
+### `Code.gs`
+
+This file contains all necessary functions:
+
+| Function | Purpose |
+|---------|---------|
+| `generateCustomTimeSlots()` | Generates 7 days of 10:30 AM, 1:30 PM, and 4:30 PM time slots starting from tomorrow. Updates the "TimeSlots" sheet with `[Time Slot, Booked]` rows. |
+| `updateTimeSlotsFromSheet()` | Syncs the Google Form’s multiple-choice options with currently unbooked slots in the Sheet. |
+| `doGet()` | Publishes available slots in JSON format for the frontend. Used as a fetchable endpoint. |
+| `getScriptId()` | Utility to log the current Apps Script project ID. |
+
+---
+
+## 📄 Sheet Setup
+
+**Sheet Name**: `TimeSlots`
+
+**Columns**:
+- `A`: `Time Slot` – Formatted as `YYYY-MM-DD HH:mm`
+- `B`: `Booked` – `TRUE` if booked, empty or `FALSE` otherwise
+
+---
+
 ## 🧱 Tech Stack
 
 | Technology     | Description                         |
@@ -61,6 +97,8 @@ car-detailing-website/
 │ │ ├── TeamAndWork.js
 │ │ ├── WhyUs.css
 │ │ └── WhyUs.js
+│ ├── google-apps-script/
+│ │ ├── Code.gs
 │ └── styles/
 │ └── tailwind.css
 
